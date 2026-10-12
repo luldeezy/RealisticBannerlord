@@ -1,0 +1,150 @@
+
+# ==========================================
+# REALISTICBANNERLORD 
+# ==========================================
+
+# Personal and local environment settings
+.env
+.env.*
+!.env.example
+*.local
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.DotSettings.user
+
+# Visual Studio / VS Code / IDE settings
+.vs/
+.vscode/
+.idea/
+.history/
+.fleet/
+*.code-workspace
+
+# AI assistant and local agent settings
+.codex/
+.claude/
+.cursor/
+.aider*
+.copilot/
+AGENTS.local.md
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+*.lnk
+
+# Personal certificates, credentials and keys
+*.pem
+*.key
+*.pfx
+*.p12
+*.p8
+*.ppk
+*.keystore
+*.jks
+id_rsa*
+id_ed25519*
+*.kdbx
+credentials.json
+secrets.json
+secrets.*
+auth.json
+token.json
+
+# Local configuration and machine-specific files
+appsettings.Development.json
+appsettings.Local.json
+launchSettings.json
+local.settings.json
+nuget.config
+NuGet.Config
+global.json
+Directory.Build.user.props
+Directory.Build.user.targets
+
+# Build artifacts
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+**/x64/
+**/x86/
+**/TestResults/
+artifacts/
+publish/
+packages/
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.cache
+*.tmp
+
+# Game binaries and third-party assemblies
+TaleWorlds.*.dll
+Bannerlord.*.dll
+0Harmony.dll
+*.deps.json
+*.runtimeconfig.json
+
+# Bannerlord saves and user data
+*.sav
+*.savbak
+*.bak
+*.backup
+*.autosave
+*.dmp
+*.mdmp
+*.hdmp
+*.wer
+
+# Logs, diagnostics and machine information
+*.log
+logs/
+Logs/
+crash_reports/
+CrashReports/
+diagnostics/
+telemetry/
+*.etl
+*.evtx
+*.trace
+
+# Reports and local development checkpoints
+audit/
+reports/
+checkpoints/
+FULL_CAMPAIGN_DEVELOPMENT_CHECKPOINT.md
+current-compiler-errors.csv
+
+# Archives and release packages
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# Temporary and generated files
+temp/
+tmp/
+.cache/
+*.swp
+*.swo
+*~
+*.orig
+*.rej
+
+# Python tooling, if present
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+
+# Node tooling, if present
+node_modules/
+.npm/
